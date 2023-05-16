@@ -1,0 +1,35 @@
+@media (max-width: 1000px){
+    .container{
+        grid-template-areas:
+        "aside item"
+        "aside item"
+        "aside item"
+        "aside item"
+        "aside item"
+        "aside item"
+        "aside item"
+        "aside item"
+        "footer footer";
+    }
+    
+}
+@media (max-width: 666px){
+    .container{
+        grid-template-areas:
+        "aside"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "footer"; 
+        align-items: center;
+        justify-content: center
+           }
+    .aside{
+        height: 200px;
+    }
+}
